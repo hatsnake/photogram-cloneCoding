@@ -1,0 +1,14 @@
+package com.cos.photogramstart.service;
+
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.cos.photogramstart.domain.user.User;
+
+@Service
+public class UserService {
+	@Transactional
+	public User userUpdate(int id, User user) {
+		return null;
+	}
+}

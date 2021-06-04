@@ -1,0 +1,12 @@
+package com.cos.photogramstart.service;
+
+import org.springframework.stereotype.Service;
+
+import com.cos.photogramstart.domain.user.User;
+
+@Service
+public class UserService {
+	public User userUpdate(int id, User user) {
+		return null;
+	}
+}

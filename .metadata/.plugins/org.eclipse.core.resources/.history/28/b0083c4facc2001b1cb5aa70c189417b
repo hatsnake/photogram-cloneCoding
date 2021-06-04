@@ -1,0 +1,13 @@
+package com.cos.photogramstart.web.dto.auth;
+
+import lombok.Data;
+
+//요청관련 
+@Data //Getter, Setter 생성
+public class SignupDto {
+	private String username;
+	private String password;
+	private String email;
+	private String name;
+	
+}
