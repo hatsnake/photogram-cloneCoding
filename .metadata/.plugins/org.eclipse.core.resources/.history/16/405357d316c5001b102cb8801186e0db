@@ -1,0 +1,11 @@
+package com.cos.photogramstart.web.api;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class SubscribeApiController {
+	@PostMapping("/api/subscribe/{toUserId}")
+	public ResponseEntity<?> subscribe() {
+		return null;
+	}
+}

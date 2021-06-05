@@ -16,10 +16,10 @@ import lombok.NoArgsConstructor;
 
 //DB에 INSERT하기 위한 클래스
 //JPA - Java Persistence API
-@Builder
-@AllArgsConstructor
-@NoArgsConstructor
-@Data
+@Builder //빌더 사용
+@AllArgsConstructor //매개변수 생성자 생성
+@NoArgsConstructor //빈 생성자 생성
+@Data //Getter,Setter 생성
 @Entity //디비에 테이블을 생성
 public class User {
 	@Id
