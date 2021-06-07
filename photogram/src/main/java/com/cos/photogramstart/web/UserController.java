@@ -9,11 +9,21 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 import com.cos.photogramstart.config.auth.PrincipalDetails;
+import com.cos.photogramstart.service.UserService;
+import com.cos.photogramstart.web.dto.user.UserProfileDto;
 
+import lombok.RequiredArgsConstructor;
+
+@RequiredArgsConstructor
 @Controller
 public class UserController {
-	@GetMapping("/user/{id}")
-	public String profile(@PathVariable int id) {
+	
+	private final UserService userService;
+	
+	@GetMapping("/user/{pageUserId}")
+	public String profile(@PathVariable int pageUserId, Model model, @AuthenticationPrincipal PrincipalDetails principalDetails) {
+		UserProfileDto dto = userService.userProfile(pageUserId, principalDetails.getUser().getId());
+		model.addAttribute("dto", dto);
 		return "user/profile";
 	}
 	
@@ -22,9 +32,9 @@ public class UserController {
 		//비추천 방법
 		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
 		PrincipalDetails mPrincipalDetails = (PrincipalDetails) auth.getPrincipal();
-		System.out.println("세션 정보1 : "+mPrincipalDetails.getUser());
+		//System.out.println("세션 정보1 : "+mPrincipalDetails.getUser());
 		//추천방법
-		System.out.println("세션 정보2 : "+principalDetails.getUser());
+		//System.out.println("세션 정보2 : "+principalDetails.getUser());
 
 		return "user/update";
 	}
