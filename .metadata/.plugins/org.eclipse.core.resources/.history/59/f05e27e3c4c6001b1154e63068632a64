@@ -1,0 +1,9 @@
+package com.cos.photogramstart.web.dto.subscribe;
+
+public class SubscribeDto {
+	private int userId;
+	private String username;
+	private String profileImageUrl;
+	private Integer subscribeState;
+	private Integer equalUserState;
+}
