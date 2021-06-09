@@ -1,7 +1,0 @@
-package com.cos.photogramstart.domain.user;
-
-//DB에 INSERT하기 위한 클래스
-//JPA - Java Persistence API
-public class User {
-	
-}

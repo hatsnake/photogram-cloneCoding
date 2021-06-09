@@ -1,6 +1,0 @@
-package com.cos.photogramstart.web;
-
-@Controller //1.IOC, 2.파일을 리턴하는 컨트롤러
-public class AuthController {
-
-}

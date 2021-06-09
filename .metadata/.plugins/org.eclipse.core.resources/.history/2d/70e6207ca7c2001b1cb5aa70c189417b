@@ -1,8 +1,0 @@
-package com.cos.photogramstart.web;
-
-import org.springframework.stereotype.Controller;
-
-@Controller //1.IOC, 2.파일을 리턴하는 컨트롤러
-public class AuthController {
-
-}

@@ -1,0 +1,44 @@
+package com.cos.photogramstart.domain.image.likes;
+
+import java.time.LocalDateTime;
+
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.PrePersist;
+import javax.persistence.Table;
+import javax.persistence.UniqueConstraint;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
+@Table(
+	uniqueConstraints = {
+			@UniqueConstraint(
+					name="like_uk",
+					columnNames= {"ImageId", "userId"}
+			)
+	}
+)
+public class likes {
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int id;
+	
+	private Image image;
+	
+	private User user;
+	
+	private LocalDateTime createDate;
+	
+	@PrePersist
+	public void createDate() {
+		this.createDate = LocalDateTime.now();
+	}
+}
