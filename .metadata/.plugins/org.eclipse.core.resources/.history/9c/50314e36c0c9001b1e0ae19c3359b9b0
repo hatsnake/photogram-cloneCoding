@@ -1,0 +1,18 @@
+package com.cos.photogramstart.handler.aop;
+
+import org.aspectj.lang.annotation.Aspect;
+import org.springframework.stereotype.Component;
+
+@Component
+@Aspect
+public class ValidationAdvice {
+	@Around("execution(* com.cos.photogramstart.web.*Controller.*(..))")
+	public Object apiAdvice() {
+		
+	}
+	
+	@Around()
+	public Object advice() {
+		
+	}
+}
