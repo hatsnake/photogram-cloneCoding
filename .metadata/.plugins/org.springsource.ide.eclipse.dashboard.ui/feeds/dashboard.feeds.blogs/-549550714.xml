@@ -5,7 +5,37 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2021-06-09T09:57:00Z</updated>
+  <updated>2021-06-10T12:51:46Z</updated>
+  <entry>
+    <title>Spring Boot 2.4.7 available now</title>
+    <link rel="alternate" href="https://spring.io/blog/2021/06/10/spring-boot-2-4-7-available-now" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>St?phane Nicoll</name>
+    </author>
+    <id>tag:spring.io,2021-06-10:4465</id>
+    <updated>2021-06-10T12:51:46Z</updated>
+    <content type="html">&lt;p&gt;On behalf of the team and everyone who has contributed, I&amp;rsquo;m happy to announce that Spring Boot &lt;code&gt;2.4.7&lt;/code&gt; has been released and is now available from Maven Central.&lt;/p&gt;
+&lt;p&gt;This release includes &lt;a href="https://github.com/spring-projects/spring-boot/releases/tag/v2.4.7"&gt;36 bug fixes, documentation improvements, and dependency upgrades&lt;/a&gt;. Thanks to all those who have contributed with issue reports and pull requests.&lt;/p&gt;&lt;h3&gt;&lt;a href="#how-can-you-help" class="anchor" name="how-can-you-help"&gt;&lt;/a&gt;How can you help?&lt;/h3&gt;
+&lt;p&gt;If you&amp;rsquo;re interested in helping out, check out the &lt;a href="https://github.com/spring-projects/spring-boot/labels/status%3A%20ideal-for-contribution"&gt;&amp;ldquo;ideal for contribution&amp;rdquo; tag&lt;/a&gt; in the issue repository. If you have general questions, please ask on &lt;a href="https://stackoverflow.com"&gt;stackoverflow.com&lt;/a&gt; using the &lt;a href="https://stackoverflow.com/tags/spring-boot"&gt;&lt;code&gt;spring-boot&lt;/code&gt; tag&lt;/a&gt; or chat with the community on &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://spring.io/projects/spring-boot/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-boot/docs/2.4.7/reference/html"&gt;Documentation&lt;/a&gt; | &lt;a href="https://stackoverflow.com/questions/tagged/spring-boot"&gt;Stack Overflow&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;&lt;/p&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Boot 2.3.12.RELEASE available now</title>
+    <link rel="alternate" href="https://spring.io/blog/2021/06/10/spring-boot-2-3-12-release-available-now" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Andy Wilkinson</name>
+    </author>
+    <id>tag:spring.io,2021-06-10:4464</id>
+    <updated>2021-06-10T12:27:40Z</updated>
+    <content type="html">&lt;p&gt;On behalf of the team and everyone who has contributed, I&amp;rsquo;m happy to announce that Spring Boot &lt;code&gt;2.3.12.RELEASE&lt;/code&gt; has been released and is now available from Maven Central.&lt;/p&gt;
+&lt;p&gt;This release includes &lt;a href="https://github.com/spring-projects/spring-boot/releases/tag/v2.3.12.RELEASE"&gt;26 bug fixes, documentation improvements, and dependency upgrades&lt;/a&gt;. Thanks to all those who have contributed with issue reports and pull requests.&lt;/p&gt;&lt;h3&gt;&lt;a href="#how-can-you-help" class="anchor" name="how-can-you-help"&gt;&lt;/a&gt;How can you help?&lt;/h3&gt;
+&lt;p&gt;If you&amp;rsquo;re interested in helping out, check out the &lt;a href="https://github.com/spring-projects/spring-boot/labels/status%3A%20ideal-for-contribution"&gt;&amp;ldquo;ideal for contribution&amp;rdquo; tag&lt;/a&gt; in the issue repository. If you have general questions, please ask on &lt;a href="https://stackoverflow.com"&gt;stackoverflow.com&lt;/a&gt; using the &lt;a href="https://stackoverflow.com/tags/spring-boot"&gt;&lt;code&gt;spring-boot&lt;/code&gt; tag&lt;/a&gt; or chat with the community on &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://spring.io/projects/spring-boot/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-boot/docs/2.3.12.RELEASE/reference/html"&gt;Documentation&lt;/a&gt; | &lt;a href="https://stackoverflow.com/questions/tagged/spring-boot"&gt;Stack Overflow&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;&lt;/p&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>Spring Framework 5.3.8 available now</title>
     <link rel="alternate" href="https://spring.io/blog/2021/06/09/spring-framework-5-3-8-available-now" />
@@ -820,48 +850,6 @@ Artem&lt;/p&gt;
   &lt;li&gt;&lt;a href="https://twitter.com/JavaAtMicrosoft/status/1392905283710590977"&gt;Want to learn more about Java on Microsoft Azure? Join the &amp;ldquo;Ask the #Java Experts&amp;rdquo; live session at #MSBuild with: Asir Selvasingh, Bruno Borges, and many others&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Check out this talk on &lt;a href="https://twitter.com/JavaAtMicrosoft/status/1393249621774790656"&gt;the Microsoft build of OpenJDK and other useful Java things on VS Code and Azure. &lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Security 5.5 goes GA</title>
-    <link rel="alternate" href="https://spring.io/blog/2021/05/18/spring-security-5-5-goes-ga" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Eleftheria Stein-Kousathana</name>
-    </author>
-    <id>tag:spring.io,2021-05-18:4444</id>
-    <updated>2021-05-18T07:30:00Z</updated>
-    <content type="html">&lt;div class="paragraph"&gt;
-&lt;p&gt;On behalf of the community, it is my pleasure to announce the general availability of Spring Security 5.5. This release is the result of the work that went into &lt;a href="https://github.com/spring-projects/spring-security/releases/tag/5.5.0-M1"&gt;5.5.0-M1&lt;/a&gt;, &lt;a href="https://github.com/spring-projects/spring-security/releases/tag/5.5.0-M2"&gt;5.5.0-M2&lt;/a&gt;, &lt;a href="https://github.com/spring-projects/spring-security/releases/tag/5.5.0-M3"&gt;5.5.0-M3&lt;/a&gt;, &lt;a href="https://github.com/spring-projects/spring-security/releases/tag/5.5.0-RC1"&gt;5.5.0-RC1&lt;/a&gt;, &lt;a href="https://github.com/spring-projects/spring-security/releases/tag/5.5.0-RC2"&gt;5.5.0-RC2&lt;/a&gt; and &lt;a href="https://github.com/spring-projects/spring-security/releases/tag/5.5.0"&gt;5.5.0&lt;/a&gt;. In combination, they close 250+ tickets.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;You can find the highlights of 5.5 in the &lt;a href="https://docs.spring.io/spring-security/site/docs/5.5.0/reference/html5/#new"&gt;What&amp;#8217;s new&lt;/a&gt; section of the Spring Security reference.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;As always, we look forward to hearing your &lt;a href="https://github.com/spring-projects/spring-security/issues"&gt;feedback&lt;/a&gt;!&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;a href="https://projects.spring.io/spring-security/"&gt;Project Site&lt;/a&gt; |
-&lt;a href="https://docs.spring.io/spring-security/site/docs/5.5.0/reference/html5/"&gt;Reference&lt;/a&gt;
-| &lt;a href="https://stackoverflow.com/questions/tagged/spring-security"&gt;Help&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring for Apache Kafka 2.5.13.RELEASE, 2.6.8 &amp; 2.7.1 available</title>
-    <link rel="alternate" href="https://spring.io/blog/2021/05/17/spring-for-apache-kafka-2-5-13-release-2-6-8-2-7-1-available" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Artem Bilan</name>
-    </author>
-    <id>tag:spring.io,2021-05-17:4443</id>
-    <updated>2021-05-17T18:48:44Z</updated>
-    <content type="html">&lt;p&gt;On behalf of the team and everyone who has contributed, I am pleased to announce that Spring for Apache Kafka &lt;code&gt;2.5.13.RELEASE&lt;/code&gt;, &lt;code&gt;2.6.8&lt;/code&gt; and &lt;code&gt;2.7.1&lt;/code&gt; are available now.&lt;/p&gt;
-&lt;p&gt;All versions have some number of bug fixes and minor improvements, especially additions to recently introduced Topic Delayed Non-Blocking Retry.&lt;br/&gt;Big thanks to &lt;a href="https://github.com/tomazfernandes"&gt;Tomaz Fernandes&lt;/a&gt; for amazing contributions in this area!&lt;/p&gt;
-&lt;p&gt;See their release notes for more information:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-projects/spring-kafka/releases/tag/v2.5.13.RELEASE"&gt;https://github.com/spring-projects/spring-kafka/releases/tag/v2.5.13.RELEASE&lt;/a&gt;&lt;br/&gt;&lt;a href="https://github.com/spring-projects/spring-kafka/releases/tag/v2.6.8"&gt;https://github.com/spring-projects/spring-kafka/releases/tag/v2.6.8&lt;/a&gt;&lt;br/&gt;&lt;a href="https://github.com/spring-projects/spring-kafka/releases/tag/v2.7.1"&gt;https://github.com/spring-projects/spring-kafka/releases/tag/v2.7.1&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Stay tuned for follow-up Spring Boot releases later this week.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://projects.spring.io/spring-kafka/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-kafka"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-kafka/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-kafka/docs/current/reference/html/"&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>
